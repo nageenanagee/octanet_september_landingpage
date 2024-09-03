@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  background-image: url("https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?ga=GA1.1.593445201.1723028649&semt=ais_hybrid");
+  background-size: cover;
+  height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  background-color: turquoise;
+  height: 30px;
+  width: 150px;
+  margin: 15px;
+  border-radius: 30px;
+}
+
+li {
+  color: white;
+  margin: 15px;
+  list-style-type: none;
+  font-weight: bold;
+}
+.main {
+  margin: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+div h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+div P {
+  color: turquoise;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div button {
+  color: rgb(13, 166, 209);
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  width: 40px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
